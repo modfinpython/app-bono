@@ -2,7 +2,6 @@
 from abc import abstractmethod
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 class Bono:
     def __init__(
