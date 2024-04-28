@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app_bono.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "rewrites": [
+      {"source": "/(.*)", "destination": "/"}
+  ]
+  }
